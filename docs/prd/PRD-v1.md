@@ -200,19 +200,173 @@ so that I can anticipate future market opportunities.
 
 # 7. Functional Requirements
 
-(To be completed)
+## FR-1 Startup Discovery
 
+The platform shall allow users to search and discover startups.
+
+Capabilities:
+
+- Search by startup name
+- Filter by industry
+- Filter by geography
+- Filter by startup stage
+
+---
+
+## FR-2 Startup Profile
+
+The platform shall provide detailed startup profiles.
+
+Capabilities:
+
+- Startup overview
+- Industry classification
+- Growth metrics
+- Funding information
+- Similar startups
+
+---
+
+## FR-3 Startup Success & Failure Analysis
+
+The platform shall analyze startup outcomes.
+
+Capabilities:
+
+- Success indicators
+- Failure indicators
+- Comparable startup analysis
+- Sector benchmarking
+
+---
+
+## FR-4 Funding Prediction Engine
+
+The platform shall estimate startup funding probability.
+
+Capabilities:
+
+- Funding likelihood score
+- Key contributing factors
+- Explainable predictions
+
+---
+
+## FR-5 Ecosystem Intelligence
+
+The platform shall map startup ecosystems.
+
+Capabilities:
+
+- Industry clusters
+- Startup relationships
+- Sector-level insights
+
+---
+
+## FR-6 AI Startup Analyst
+
+The platform shall provide AI-generated insights.
+
+Capabilities:
+
+- Natural language questions
+- Startup comparisons
+- Research summaries
+- Trend explanations
 # 8. Non-Functional Requirements
 
-(To be completed)
+## Performance
 
+- Dashboard load time < 2 seconds
+- Search response < 1 second
+
+## Scalability
+
+- Support at least 5,000 startups in MVP
+- Modular architecture for future scaling
+
+## Reliability
+
+- 99% uptime target for deployed version
+
+## Maintainability
+
+- Modular backend architecture
+- Well-documented APIs
+
+## Explainability
+
+- All predictions must include explanations
+
+## Security
+
+- Use publicly available data only
+- No collection of sensitive user information
 # 9. MVP Scope
 
-(To be completed)
+## Included in MVP
 
+### Startup Explorer
+
+- Search startups
+- Filter startups
+- Browse startup profiles
+
+### Startup Intelligence Dashboard
+
+- Growth score
+- Funding score
+- Ecosystem insights
+
+### Startup Success & Failure Analysis
+
+- Similar startup discovery
+- Failure pattern analysis
+
+### Funding Prediction
+
+- Funding probability score
+- Explainable predictions
+
+### AI Startup Analyst
+
+- Ask questions about startups
+- Generate startup insights
+
+---
+
+## Excluded from MVP
+
+- User authentication
+- Real-time streaming data
+- Mobile application
+- Paid subscriptions
+- Multi-user collaboration
+- Acquisition prediction
+- Unicorn prediction
 # 10. Success Metrics
 
-(To be completed)
+## Product Metrics
+
+- 500+ startups collected
+- 90% startup profile completeness
+
+## Analytics Metrics
+
+- Growth scores generated for all startups
+- Ecosystem analysis available for all sectors
+
+## Machine Learning Metrics
+
+- Funding prediction model operational
+- Explainable outputs for every prediction
+
+## Project Metrics
+
+- Public deployment
+- Complete documentation
+- Open-source GitHub repository
 
 # 11. Future Roadmap
 
