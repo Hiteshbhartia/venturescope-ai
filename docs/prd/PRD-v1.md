@@ -69,15 +69,134 @@ The long-term vision is to create a data-driven platform that helps users unders
 
 # 4. Target Users
 
-(To be completed)
+## Primary User Group
+
+Startup Intelligence Professionals
+
+This group includes:
+
+- Venture Capital Analysts
+- Angel Investors
+- Venture Capital Firms
+- Startup Founders
+- Corporate Strategy Teams
+
+## Secondary User Group
+
+- Researchers
+- Ecosystem Analysts
+- Students interested in entrepreneurship and startups
+
+## User Goals
+
+Users want to:
+
+- Discover emerging startups
+- Understand why startups succeed or fail
+- Analyze startup ecosystems
+- Predict funding and growth outcomes
+- Learn from comparable startup journeys
+- Generate actionable startup intelligence
 
 # 5. User Personas
 
-(To be completed)
+## Persona 1: VC Analyst
+
+Goals:
+- Discover promising startups
+- Evaluate investment opportunities
+- Analyze startup momentum
+
+Pain Points:
+- Information scattered across sources
+- Time-consuming research process
+
+Success Criteria:
+- Faster startup discovery
+- Better investment decisions
+
+---
+
+## Persona 2: Startup Founder
+
+Goals:
+- Learn from successful startups
+- Avoid mistakes made by failed startups
+- Understand market trends
+
+Pain Points:
+- Limited access to startup intelligence
+- Lack of visibility into failure patterns
+
+Success Criteria:
+- Better strategic decisions
+- Reduced risk of common startup mistakes
+
+---
+
+## Persona 3: Corporate Strategy Team
+
+Goals:
+- Track emerging industries
+- Identify acquisition opportunities
+- Monitor startup ecosystems
+
+Pain Points:
+- Difficult market monitoring
+- Large amounts of fragmented information
+
+Success Criteria:
+- Faster market intelligence generation
 
 # 6. User Stories
 
-(To be completed)
+## Startup Discovery
+
+As an investor,
+
+I want to discover high-potential startups,
+
+so that I can identify investment opportunities.
+
+---
+
+## Failure Analysis
+
+As a founder,
+
+I want to analyze failed startups in my sector,
+
+so that I can avoid repeating common mistakes.
+
+---
+
+## Ecosystem Analysis
+
+As a VC analyst,
+
+I want to explore startup ecosystems,
+
+so that I can understand industry dynamics.
+
+---
+
+## Funding Prediction
+
+As an investor,
+
+I want to estimate funding probability,
+
+so that I can prioritize startup research.
+
+---
+
+## Trend Detection
+
+As a strategy team member,
+
+I want to identify emerging sectors,
+
+so that I can anticipate future market opportunities.
 
 # 7. Functional Requirements
 
