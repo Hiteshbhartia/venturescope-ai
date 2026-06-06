@@ -40,41 +40,32 @@ Stores AI-generated intelligence.
 
 ## Entity Relationship Diagram (Logical)
 
-Industry
-│
-│ 1:N
-▼
+```mermaid
+erDiagram
 
-Startups
-│
-│ N:M
-▼
+    INDUSTRIES ||--o{ STARTUPS : contains
 
-Startup_Founders
-▲
-│
-│ N:1
-│
-Founders
+    STARTUPS ||--o{ STARTUP_FOUNDERS : has
+    FOUNDERS ||--o{ STARTUP_FOUNDERS : founded
 
-Startups
-│
-├──────────────► GitHub_Metrics
-│
-├──────────────► ProductHunt_Metrics
-│
-├──────────────► News_Mentions
-│
-├──────────────► Startup_Scores
-│
-├──────────────► Startup_Features
-│
-├──────────────► Predictions
-│
-├──────────────► AI_Insights
-│
-└──────────────► Startup_Relationships
+    STARTUPS ||--o{ GITHUB_METRICS : generates
+    STARTUPS ||--o{ PRODUCT_HUNT_METRICS : launches
+    STARTUPS ||--o{ NEWS_MENTIONS : receives
 
+    STARTUPS ||--o{ STARTUP_SCORES : scored_by
+
+    STARTUPS ||--o{ STARTUP_FEATURES : produces
+
+    STARTUPS ||--o{ PREDICTIONS : predicted_for
+    PREDICTIONS ||--o{ PREDICTION_EXPLANATIONS : explained_by
+
+    STARTUPS ||--o{ AI_INSIGHTS : analyzed_by
+
+    STARTUPS ||--o{ FAILURE_PATTERNS : exhibits
+    STARTUPS ||--o{ SUCCESS_PATTERNS : exhibits
+
+    STARTUPS ||--o{ STARTUP_RELATIONSHIPS : related_to
+```
 
 ---
 
